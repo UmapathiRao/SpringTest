@@ -14,7 +14,7 @@
        </context:component-scan> -->
        
       <bean id="fruits" class="com.test.spel.Fruits">
-      <property name="name" value="#{'Rasa'+'mango'}"/>
+      <property name="name" value="Rasa mango"/>
       <property name="grade" value="A"/>
       </bean>
        </beans>
